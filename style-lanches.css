@@ -1,0 +1,43 @@
+html {
+    text-align: center;
+    color: rgb(105, 29, 29);
+    background-color: cornflowerblue;
+}
+
+.info {
+    background-color: white;
+    padding-top: 1px;
+    opacity: 70%;
+    height: 40pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300pt;
+}
+
+.linhas-colunas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.items {
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+}
