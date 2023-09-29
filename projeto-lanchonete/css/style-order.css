@@ -16,6 +16,17 @@ html {
     margin-right: 123px;
 }
 
+textarea {
+    background-color: white;
+    border-block-color: black;
+    resize: none;
+    border-width: 2px;
+}
+
+input {
+    background-color: white;
+}
+
 h1 {
     text-align: center;
 }
