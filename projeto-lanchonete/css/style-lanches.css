@@ -9,6 +9,9 @@ html {
     padding-top: 1px;
     opacity: 70%;
     height: 40pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -23,7 +26,6 @@ html {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 400px;
 }
 
 .items {
