@@ -1,0 +1,44 @@
+html {
+    color: rgb(105, 29, 29);
+    background-color: cornflowerblue;
+}
+
+.info {
+    text-align: center;
+    background-color: white;
+    padding-top: 1px;
+    opacity: 70%;
+    height: 40pt;
+}
+
+.pf {
+    margin: 0px;
+    margin-right: 123px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-right: 123px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#pedido {
+    height: 50px;
+}
+
+img#logo {
+    height: 50px;
+    width: 50px;
+}
+
+div#logo {
+    text-align: center;
+}
