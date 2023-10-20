@@ -1,0 +1,78 @@
+h1.head-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10pt;
+}
+
+h1, h2 {
+    cursor: default;
+}
+
+.btn-style {
+    padding: 10px;
+    background-color: rgb(36, 218, 36);
+    border: 1px solid;
+    color: black;
+    font-weight: bolder;
+}
+
+.btn-style:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.input-style {
+    border: 2px solid black;
+    width: 150pt;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.list-style {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 9px 9px 9px rgb(59, 59, 59);
+    width: 300px;
+    min-height: 300px;
+    color: white;
+    padding: 20px;
+}
+
+.list-display-grid {
+    display: grid;
+
+}
+
+.list-display-grid > div {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: fit-content;
+    margin: 5px;
+    padding: 1em;
+}
+
+.list-display-grid > div:hover {
+    background-color: rgb(133, 133, 133, 0.300);
+    cursor: pointer;
+}
+
+.content-style {
+    text-align: center;
+}
